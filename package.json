@@ -18,6 +18,7 @@
     "prebuild": "run-s clean",
     "build": "webpack --env production",
     "build:dev": "webpack --env development",
+    "predeploy": "run-s build",
     "deploy": "netlify deploy --site=$NETLIFY_SITE_ID --auth=$NETLIFY_ACCESS_TOKEN --dir=./lib/ --prod"
   },
   "devDependencies": {
