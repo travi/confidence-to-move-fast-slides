@@ -21,11 +21,13 @@
     "deploy": "netlify deploy --site=$NETLIFY_SITE_ID --auth=$NETLIFY_ACCESS_TOKEN --dir=./lib/ --prod"
   },
   "devDependencies": {
+    "@babel/plugin-transform-runtime": "7.4.0",
     "@babel/register": "7.4.0",
     "@travi/any": "1.8.5",
     "@travi/babel-preset": "3.0.0",
     "@travi/eslint-config-travi": "1.8.0",
     "babel-loader": "8.0.5",
+    "babel-plugin-transform-react-remove-prop-types": "0.4.24",
     "ban-sensitive-files": "1.9.2",
     "commitlint-config-travi": "1.2.40",
     "cz-conventional-changelog": "2.1.0",
@@ -35,8 +37,6 @@
     "netlify-cli": "2.9.1",
     "npm-run-all": "4.1.5",
     "raw-loader": "2.0.0",
-    "react-hot-loader": "4.8.2",
-    "redbox-react": "1.6.0",
     "remark-cli": "6.0.1",
     "remark-preset-lint-travi": "1.2.0",
     "rimraf": "2.6.3",
@@ -49,8 +49,11 @@
   },
   "dependencies": {
     "normalize.css": "8.0.1",
+    "prop-types": "15.7.2",
     "react": "16.8.6",
     "react-dom": "16.8.6",
+    "react-hot-loader": "4.8.2",
+    "redbox-react": "1.6.0",
     "spectacle": "5.4.0"
   }
 }
