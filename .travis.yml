@@ -2,8 +2,13 @@ language: node_js
 notifications:
   email: false
 before_script:
-  - npm ls >/dev/null
+- npm ls >/dev/null
+deploy:
+  provider: script
+  skip_cleanup: true
+  script: npm run deploy
 env:
   global:
-    - FORCE_COLOR=1
-    - NPM_CONFIG_COLOR=always
+  - FORCE_COLOR=1
+  - NPM_CONFIG_COLOR=always
+  - secure: cdI5PJ+T0xGdEn6/+qA3QdRRdufb4RFp9aWXvs+DW/pJafEaVlbqWn495E5XPVQHmudFk3AsIM5ZWySE6PeY+3TvFhfoslb5mVZfSPygUYj6ceodfbQYJtleGm7RRyOL5xVRl1S4Tnp1LFXOvJ0A9X2B5A+6tDiuDayn2sEvJfYmdV4z7095OYSZR20IGhvYcx/26VzEq218gH3db7EdoJ+xmM86Y3PcAhueInSRYkxJxaXw6tjAnQnDSdzH/fQBKx7JlyUc7pwXwN8hkaYGFPTllvDPGkmgFphXUvz36VtxoBQ6qlBUXDTa76IypoxHFG4w5sEWRw1C8TXKGqttumIWNExDSwceSkoI6J6fCaKwJWzdaaWFgKZP8q5QrLln2hJ3+IHg/HpnTbr81b+Ajjsts6RLN1iLFnymoYditZG8DsifHFvqiTH7LBjGu7nQ/9bIufFdXxYtu+kp1iJ5bpvIIycdV6mVj+tiuzMwwnAPxlP+KkxV8QLB1JpvzPpAZ1tHR0FhQjD5qci33jed4czDwJHiAzKAcOMoyBlQS5i0xd4eUHMqp8O0L782DSJhbTH0symxHeQWdUfOR9QP7rd1YCY8cE9pN9BzRRjysl6wq/ZxgLm+GMpcdlQJvB4iqpNjTOXAfNklwVq6jDu1Od9H2KKcAUCmTpwc5W0+RPo=
