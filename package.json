@@ -5,7 +5,7 @@
   "private": true,
   "repository": "travi/confidence-to-move-fast-slides",
   "bugs": "https://github.com/travi/confidence-to-move-fast-slides/issues",
-  "homepage": "https://github.com/travi/confidence-to-move-fast-slides#readme",
+  "homepage": "https://confidence-to-move-fast.travi.org/",
   "author": "Matt Travi <npm@travi.org> (https://matt.travi.org/)",
   "scripts": {
     "test": "npm-run-all --print-label --parallel lint:*",

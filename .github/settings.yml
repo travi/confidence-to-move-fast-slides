@@ -3,7 +3,7 @@ repository:
   description: >-
     Spectacle slide deck for talk about having the confidence for
     continuous-deployment
-  homepage: 'https://github.com/travi/confidence-to-move-fast-slides#readme'
+  homepage: https://confidence-to-move-fast.travi.org/
   private: false
   has_wiki: false
   has_projects: false
