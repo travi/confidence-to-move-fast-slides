@@ -15,10 +15,10 @@ import createTheme from 'spectacle/lib/themes/default';
 require('normalize.css');
 
 const theme = createTheme({
-  primary: 'white',
-  secondary: '#1F2022',
-  tertiary: '#03A9FC',
-  quaternary: '#CECECE'
+  primary: '#564154',
+  secondary: '#FF6542',
+  tertiary: '#E0CBA8',
+  quaternary: '#779FA1'
 });
 
 export default function Presentation() {
