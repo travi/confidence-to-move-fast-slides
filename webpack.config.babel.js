@@ -94,7 +94,8 @@ export default function (env = 'development') {
         chunks: [...defaultChunks, 'slides'],
         filename: 'index.html',
         template: 'src/presentation.mustache',
-        title: 'With Enough Confidence, You Can Go Fast'
+        title: 'With Enough Confidence, You Can Go Fast',
+        ...'production' === env && {gaKey: 'UA-2890413-13'}
       })
     ]),
 
