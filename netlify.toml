@@ -1,0 +1,14 @@
+[[headers]]
+  for = "/*"
+  [headers.values]
+  X-XSS-Protection = "1; mode=block"
+  X-Frame-Options = "DENY"
+  Referrer-Policy = "same-origin,strict-origin-when-cross-origin"
+  X-Content-Type-Options = "nosniff"
+  Report-To = '{"group":"default","max_age":31536000,"endpoints":[{"url":"https://travi.report-uri.com/a/d/g"}],"include_subdomains":true}'
+  NEL = '{"report_to":"default","max_age":31536000,"include_subdomains":true}'
+
+[[redirects]]
+  from = "https://confidence-to-move-fast.netlify.com/*"
+  to = "https://confidence-to-move-fast.travi.org/:splat"
+  force = true
