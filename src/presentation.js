@@ -4,6 +4,7 @@ import {
   Cite,
   Deck,
   Heading,
+  Link,
   ListItem,
   List,
   Quote,
@@ -55,6 +56,30 @@ export default function Presentation() {
           <Quote>Example Quote</Quote>
           <Cite>Author</Cite>
         </BlockQuote>
+      </Slide>
+
+      <Slide transition={['fade']} bgColor="tertiary" textColor="secondary">
+        <Heading size={1} fit textColor="primary">
+          Matt Travi
+        </Heading>
+
+        <List>
+          <ListItem>
+            <Link textColor="secondary" target="_blank" href="https://matt.travi.org">
+              matt.travi.org
+            </Link>
+          </ListItem>
+          <ListItem>
+            <Link textColor="secondary" target="_blank" href="https://twitter.com/mtravi">
+              twitter.com/mtravi
+            </Link>
+          </ListItem>
+          <ListItem>
+            <Link textColor="secondary" target="_blank" href="https://confidence-to-move-fast.travi.org">
+              confidence-to-move-fast.travi.org
+            </Link>
+          </ListItem>
+        </List>
       </Slide>
     </Deck>
   );
