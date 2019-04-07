@@ -1,5 +1,5 @@
 import React from 'react';
-import {Deck, Heading, Link, List, ListItem, Slide} from 'spectacle';
+import {Deck, Heading, Link, List, ListItem, Slide, Text} from 'spectacle';
 import createTheme from 'spectacle/lib/themes/default';
 
 require('normalize.css');
@@ -131,6 +131,15 @@ export default function Presentation() {
         </Heading>
         <Heading size={2} margin="10px 0 0" textColor="primary" fit bold caps>
           Should Be Avoided
+        </Heading>
+      </Slide>
+
+      <Slide transition={['fade']} bgColor="tertiary">
+        <Heading size={1} fit caps lineHeight={1} textColor="secondary">
+          Ensuring Quality Meant
+        </Heading>
+        <Heading size={2} margin="10px 0 0" textColor="primary" fit bold caps>
+          Freezing the Codebase to Verify
         </Heading>
       </Slide>
 
@@ -280,6 +289,30 @@ export default function Presentation() {
 
       <Slide transition={['fade']} bgColor="secondary" textColor="primary">
         <Heading size={1} fit caps lineHeight={1} textColor="primary">
+          Rewards
+        </Heading>
+      </Slide>
+
+      <Slide transition={['fade']} bgColor="tertiary">
+        <Heading size={1} fit caps lineHeight={1} textColor="secondary">
+          Automated Verification
+        </Heading>
+        <Heading size={2} margin="10px 0 0" textColor="primary" fit bold caps>
+          Provides Confidence More Quickly (and Cheaply)
+        </Heading>
+      </Slide>
+
+      {/*
+        * short feedback cycle
+        * no more waiting for deployment to finish and verifying that everything worked. push and drive home
+        * continuous deployment of apps
+        * continuous deployment of packages
+        * automated dependency updates
+        * continuous deployment of package results in deployment of consuming applications
+      */}
+
+      <Slide transition={['fade']} bgColor="secondary" textColor="primary">
+        <Heading size={1} fit caps lineHeight={1} textColor="primary">
           Deployment Pipeline
         </Heading>
       </Slide>
@@ -302,24 +335,77 @@ export default function Presentation() {
         </Heading>
       </Slide>
 
-      {/*
-        if perfection is holding you back, keep in mind you probably arent accomplishing perfection with current process
-      */}
-
       <Slide transition={['fade']} bgColor="secondary" textColor="primary">
         <Heading size={1} fit caps lineHeight={1} textColor="primary">
-          Rewards
+          Perfection
         </Heading>
       </Slide>
 
-      {/*
-        * short feedback cycle
-        * no more waiting for deployment to finish and verifying that everything worked. push and drive home
-        * continuous deployment of apps
-        * continuous deployment of packages
-        * automated dependency updates
-        * continuous deployment of package results in deployment of consuming applications
-      */}
+      <Slide transition={['fade']} bgColor="tertiary">
+        <Heading size={1} fit caps lineHeight={1} textColor="secondary">
+          Defects Will
+        </Heading>
+        <Heading size={2} margin="10px 0 0" textColor="primary" fit bold caps>
+          Make it to Production
+        </Heading>
+      </Slide>
+
+      <Slide transition={['fade']} bgColor="tertiary">
+        <Heading size={1} fit caps lineHeight={1} textColor="secondary">
+          Defects Are
+        </Heading>
+        <Heading size={2} margin="10px 0 0" textColor="primary" fit bold caps>
+          Making it to Production
+        </Heading>
+      </Slide>
+
+      <Slide transition={['fade']} bgColor="tertiary">
+        <Heading size={1} fit caps lineHeight={1} textColor="secondary">
+          Deciding Which to Defer When Found
+        </Heading>
+        <Text size={4} margin="10px 0 10px 0" textColor="primary" bold>
+          vs
+        </Text>
+        <Heading size={1} fit caps lineHeight={1} textColor="secondary">
+          Deciding Which to Defer When Automating
+        </Heading>
+      </Slide>
+
+      <Slide transition={['fade']} bgColor="tertiary">
+        <Heading size={1} fit caps lineHeight={1} textColor="secondary">
+          When Defects Slip Through
+        </Heading>
+        <Heading size={2} margin="10px 0 0" textColor="primary" fit bold caps>
+          Consider if Strategy Should Improve
+        </Heading>
+      </Slide>
+
+      <Slide transition={['fade']} bgColor="tertiary">
+        <Heading size={1} fit caps lineHeight={1} textColor="secondary">
+          Find Strategy Gaps
+        </Heading>
+        <Heading size={2} margin="10px 0 0" textColor="primary" fit bold caps>
+          By Testing Your Strategy
+        </Heading>
+      </Slide>
+
+      <Slide transition={['fade']} bgColor="tertiary">
+        <Heading size={1} fit caps lineHeight={1} textColor="primary">
+          Summary
+        </Heading>
+
+        <List textColor="secondary" caps>
+          <ListItem>
+            foo
+          </ListItem>
+          <ListItem>
+            bar
+          </ListItem>
+          <ListItem>
+            baz
+          </ListItem>
+        </List>
+      </Slide>
 
       <Slide transition={['fade']} bgColor="tertiary" textColor="secondary">
         <Heading size={1} fit textColor="primary">
