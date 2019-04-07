@@ -178,36 +178,127 @@ export default function Presentation() {
 
       <Slide transition={['fade']} bgColor="tertiary">
         <Heading size={1} fit caps lineHeight={1} textColor="secondary">
-          Won&apos;t Prescribe
-        </Heading>
-        <Heading size={2} margin="10px 0 0" textColor="primary" fit bold caps>
           Specifics to Automate
         </Heading>
-
-        <List textColor="primary">
-          <ListItem>Beyond the scope of this talk</ListItem>
-          <ListItem>Varies greatly based on context</ListItem>
-        </List>
+        <Heading size={2} margin="10px 0 0" textColor="primary" fit bold caps>
+          Vary By Team
+        </Heading>
       </Slide>
 
       <Slide transition={['fade']} bgColor="tertiary">
         <Heading size={1} fit caps lineHeight={1} textColor="secondary">
-          Encourage Focus On
+          Focus On Automation
         </Heading>
         <Heading size={2} margin="10px 0 0" textColor="primary" fit bold caps>
-          Automation That Improves Confidence
+          That Improves Confidence
         </Heading>
       </Slide>
 
-      {/*
-            two things to be confident in
-            * not breaking users in production
-            * successful deployment
-      */}
+      <Slide transition={['fade']} bgColor="secondary" textColor="primary">
+        <Heading size={1} fit caps lineHeight={1} textColor="primary">
+          Focus
+        </Heading>
+      </Slide>
+
+      <Slide transition={['fade']} bgColor="tertiary">
+        <Heading size={1} fit caps lineHeight={1} textColor="secondary">
+          Different Changes Involve
+        </Heading>
+        <Heading size={2} margin="10px 0 0" textColor="primary" fit bold caps>
+          Different Levels of Risk
+        </Heading>
+      </Slide>
+
+      <Slide transition={['fade']} bgColor="tertiary">
+        <Heading size={1} fit caps lineHeight={1} textColor="secondary">
+          Some Defects Are Catastrophic
+        </Heading>
+        <Heading size={2} margin="10px 0 0" textColor="primary" fit bold caps>
+          Some Defects Are Cosmetic
+        </Heading>
+      </Slide>
+
+      <Slide transition={['fade']} bgColor="tertiary">
+        <Heading size={1} fit caps lineHeight={1} textColor="secondary">
+          Some Risks Are Simple To Mitigate
+        </Heading>
+        <Heading size={2} margin="10px 0 0" textColor="primary" fit bold caps>
+          Some Risks Are Difficult To Mitigate
+        </Heading>
+      </Slide>
+
+      <Slide transition={['fade']} bgColor="tertiary">
+        <Heading size={1} fit caps lineHeight={1} textColor="secondary">
+          Agree As a Team
+        </Heading>
+        <Heading size={2} margin="10px 0 0" textColor="primary" fit bold caps>
+          About Risks and Trade-offs
+        </Heading>
+      </Slide>
 
       <Slide transition={['fade']} bgColor="secondary" textColor="primary">
         <Heading size={1} fit caps lineHeight={1} textColor="primary">
-          Perfection
+          Gaps
+        </Heading>
+      </Slide>
+
+      <Slide transition={['fade']} bgColor="tertiary">
+        <Heading size={1} fit caps lineHeight={1} textColor="secondary">
+          Some Common Practices
+        </Heading>
+        <Heading size={2} margin="10px 0 0" textColor="primary" fit bold caps>
+          Leave Gaps in Confidence
+        </Heading>
+      </Slide>
+
+      <Slide transition={['fade']} bgColor="tertiary">
+        <Heading size={1} fit caps lineHeight={1} textColor="secondary">
+          High Unit Test Coverage Provides No Confidence
+        </Heading>
+        <Heading size={2} margin="10px 0 0" textColor="primary" fit bold caps>
+          That Units Are Compatible With Each Other
+        </Heading>
+      </Slide>
+
+      <Slide transition={['fade']} bgColor="tertiary">
+        <Heading size={1} fit caps lineHeight={1} textColor="secondary">
+          High Integration Test Coverage
+        </Heading>
+        <Heading size={2} margin="10px 0 0" textColor="primary" fit bold caps>
+          Often Misses Behavioral Detail
+        </Heading>
+      </Slide>
+
+      <Slide transition={['fade']} bgColor="tertiary">
+        <Heading size={1} fit caps lineHeight={1} textColor="secondary">
+          Find a Balance That Gives Your Team
+        </Heading>
+        <Heading size={2} margin="10px 0 0" textColor="primary" fit bold caps>
+          Confidence
+        </Heading>
+      </Slide>
+
+      <Slide transition={['fade']} bgColor="secondary" textColor="primary">
+        <Heading size={1} fit caps lineHeight={1} textColor="primary">
+          Deployment Pipeline
+        </Heading>
+      </Slide>
+
+      <Slide transition={['fade']} bgColor="tertiary">
+        <Heading size={1} fit caps lineHeight={1} textColor="secondary">
+          Changes Make it to Production
+        </Heading>
+        <Heading size={2} margin="10px 0 0" textColor="primary" fit bold caps>
+          When All Verification Passes
+        </Heading>
+      </Slide>
+
+      <Slide transition={['fade']} bgColor="tertiary">
+        <Heading size={1} fit caps lineHeight={1} textColor="secondary">
+          No Changes Make it to Production
+        </Heading>
+        <Heading size={2} margin="10px 0 0" textColor="primary" fit bold caps>
+          When Any Verification Fails
         </Heading>
       </Slide>
 
@@ -220,6 +311,15 @@ export default function Presentation() {
           Rewards
         </Heading>
       </Slide>
+
+      {/*
+        * short feedback cycle
+        * no more waiting for deployment to finish and verifying that everything worked. push and drive home
+        * continuous deployment of apps
+        * continuous deployment of packages
+        * automated dependency updates
+        * continuous deployment of package results in deployment of consuming applications
+      */}
 
       <Slide transition={['fade']} bgColor="tertiary" textColor="secondary">
         <Heading size={1} fit textColor="primary">
