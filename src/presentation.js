@@ -143,11 +143,77 @@ export default function Presentation() {
         </Heading>
       </Slide>
 
+      <Slide transition={['fade']} bgColor="tertiary">
+        <Heading size={1} fit caps lineHeight={1} textColor="secondary">
+          Ensuring Quality Meant
+        </Heading>
+        <Heading size={2} margin="10px 0 0" textColor="primary" fit bold caps>
+          Not Going Fast
+        </Heading>
+      </Slide>
+
       <Slide transition={['fade']} bgColor="secondary" textColor="primary">
         <Heading size={1} fit caps lineHeight={1} textColor="primary">
           Confidence
         </Heading>
       </Slide>
+
+      <Slide transition={['fade']} bgColor="tertiary">
+        <Heading size={1} fit caps lineHeight={1} textColor="secondary">
+          Confidence Takes Too Long
+        </Heading>
+        <Heading size={2} margin="10px 0 0" textColor="primary" fit bold caps>
+          Without Automation
+        </Heading>
+      </Slide>
+
+      <Slide transition={['fade']} bgColor="tertiary">
+        <Heading size={1} fit caps lineHeight={1} textColor="secondary">
+          Industry Is Trending
+        </Heading>
+        <Heading size={2} margin="10px 0 0" textColor="primary" fit bold caps>
+          Toward Automated Verification
+        </Heading>
+      </Slide>
+
+      <Slide transition={['fade']} bgColor="tertiary">
+        <Heading size={1} fit caps lineHeight={1} textColor="secondary">
+          Won&apos;t Prescribe
+        </Heading>
+        <Heading size={2} margin="10px 0 0" textColor="primary" fit bold caps>
+          Specifics to Automate
+        </Heading>
+
+        <List textColor="primary">
+          <ListItem>Beyond the scope of this talk</ListItem>
+          <ListItem>Varies greatly based on context</ListItem>
+        </List>
+      </Slide>
+
+      <Slide transition={['fade']} bgColor="tertiary">
+        <Heading size={1} fit caps lineHeight={1} textColor="secondary">
+          Encourage Focus On
+        </Heading>
+        <Heading size={2} margin="10px 0 0" textColor="primary" fit bold caps>
+          Automation That Improves Confidence
+        </Heading>
+      </Slide>
+
+      {/*
+            two things to be confident in
+            * not breaking users in production
+            * successful deployment
+      */}
+
+      <Slide transition={['fade']} bgColor="secondary" textColor="primary">
+        <Heading size={1} fit caps lineHeight={1} textColor="primary">
+          Perfection
+        </Heading>
+      </Slide>
+
+      {/*
+        if perfection is holding you back, keep in mind you probably arent accomplishing perfection with current process
+      */}
 
       <Slide transition={['fade']} bgColor="secondary" textColor="primary">
         <Heading size={1} fit caps lineHeight={1} textColor="primary">
