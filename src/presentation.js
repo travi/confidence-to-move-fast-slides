@@ -1,5 +1,5 @@
 import React from 'react';
-import {Deck, Heading, Link, List, ListItem, Slide, Text} from 'spectacle';
+import {Deck, Heading, Image, Link, List, ListItem, Slide, Text} from 'spectacle';
 import createTheme from 'spectacle/lib/themes/default';
 
 require('normalize.css');
@@ -10,6 +10,11 @@ const theme = createTheme({
   tertiary: '#E0CBA8',
   quaternary: '#779FA1'
 });
+
+const images = {
+  semanticReleaseLogo: require('../assets/semantic-release.png'),
+  greenkeeperKeeperLogo: require('../assets/greenkeeper-keeper.jpg')
+};
 
 export default function Presentation() {
   return (
@@ -347,7 +352,12 @@ export default function Presentation() {
         </Heading>
       </Slide>
 
-      {/* semantic-release */}
+      <Slide bgColor="white">
+        <Heading size={3} textColor="black" textFont="primary" caps fit>
+          Semantic Release
+        </Heading>
+        <Image src={images.semanticReleaseLogo.replace('/', '')} width="50%" />
+      </Slide>
 
       <Slide transition={['fade']} bgColor="tertiary">
         <Heading size={1} fit caps lineHeight={1} textColor="secondary">
@@ -358,8 +368,23 @@ export default function Presentation() {
         </Heading>
       </Slide>
 
-      {/* greenkeeper */}
-      {/* greenkeeper-keeper */}
+      <Slide bgColor="white">
+        <Heading size={3} textColor="#00c775" textFont="primary" caps fit>
+          Greenkeeper
+        </Heading>
+        <Image
+          src={require('../assets/greenkeeper.svg')}
+          width="50%"
+          style={{boxShadow: '0 0 5px 1px rgba(0,0,0,0.3)', borderRadius: '100%'}}
+        />
+      </Slide>
+
+      <Slide bgColor="white">
+        <Heading size={3} textColor="black" textFont="primary" caps fit>
+          Greenkeeper Keeper
+        </Heading>
+        <Image src={images.greenkeeperKeeperLogo.replace('/', '')} width="50%" />
+      </Slide>
 
       <Slide transition={['fade']} bgColor="tertiary">
         <Heading size={1} fit caps lineHeight={1} textColor="secondary">
@@ -465,7 +490,7 @@ export default function Presentation() {
             Leverage Confidence to Cut Waste
           </ListItem>
           <ListItem>
-            Start Continuous Deployment with Packages to Reduce Risk
+            Start Continuous Deployment with Packages
           </ListItem>
         </List>
       </Slide>
