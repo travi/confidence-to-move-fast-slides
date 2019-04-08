@@ -126,7 +126,7 @@ export default function Presentation() {
           Delivering to Production
         </Heading>
         <Heading size={2} margin="10px 0 0" textColor="primary" fit bold caps>
-          Required High Quality
+          Required Great Care
         </Heading>
       </Slide>
 
@@ -493,13 +493,22 @@ export default function Presentation() {
 
         <List textColor="secondary" caps>
           <ListItem>
+            Take steps to keep software soft
+          </ListItem>
+          <ListItem>
             Automate to Gain Confidence
           </ListItem>
           <ListItem>
             Leverage Confidence to Cut Waste
           </ListItem>
           <ListItem>
-            Start Continuous Deployment with Packages
+            Target Rewards for Motivation to Improve
+          </ListItem>
+          <ListItem>
+            Apply Strategy to Low Risk Areas First
+          </ListItem>
+          <ListItem>
+            Be Aggressive With New Projects
           </ListItem>
         </List>
       </Slide>
@@ -518,6 +527,11 @@ export default function Presentation() {
           <ListItem>
             <Link textColor="secondary" target="_blank" href="https://twitter.com/mtravi">
               twitter.com/mtravi
+            </Link>
+          </ListItem>
+          <ListItem>
+            <Link textColor="secondary" target="_blank" href="http://dsmwebcollective.com">
+              dsmwebcollective.com
             </Link>
           </ListItem>
           <ListItem>
