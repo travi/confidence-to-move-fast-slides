@@ -309,6 +309,15 @@ export default function Presentation() {
 
       <Slide transition={['fade']} bgColor="tertiary">
         <Heading size={1} fit caps lineHeight={1} textColor="secondary">
+          Human Verification Can Shift
+        </Heading>
+        <Heading size={2} margin="10px 0 0" textColor="primary" fit bold caps>
+          Toward Exploration Over Regression
+        </Heading>
+      </Slide>
+
+      <Slide transition={['fade']} bgColor="tertiary">
+        <Heading size={1} fit caps lineHeight={1} textColor="secondary">
           Test-Driven Development Provides Faster Feedback
         </Heading>
         <Heading size={2} margin="10px 0 0" textColor="primary" fit bold caps>
