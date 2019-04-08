@@ -302,12 +302,75 @@ export default function Presentation() {
         </Heading>
       </Slide>
 
+      <Slide transition={['fade']} bgColor="tertiary">
+        <Heading size={1} fit caps lineHeight={1} textColor="secondary">
+          Test-Driven Development Provides Faster Feedback
+        </Heading>
+        <Heading size={2} margin="10px 0 0" textColor="primary" fit bold caps>
+          Than Verifying Through The Full Application
+        </Heading>
+      </Slide>
+
+      <Slide transition={['fade']} bgColor="tertiary">
+        <Heading size={1} fit caps lineHeight={1} textColor="secondary">
+          Integrate Changes to Master on Friday
+        </Heading>
+        <Heading size={2} margin="10px 0 0" textColor="primary" fit bold caps>
+          Then Drive Home
+        </Heading>
+      </Slide>
+
+      <Slide transition={['fade']} bgColor="tertiary">
+        <Heading size={1} fit caps lineHeight={1} textColor="secondary">
+          Continuous Delivery
+        </Heading>
+        <Heading size={2} margin="10px 0 0" textColor="primary" fit bold caps>
+          Be Ready to Deploy at any Time
+        </Heading>
+      </Slide>
+
+      <Slide transition={['fade']} bgColor="tertiary">
+        <Heading size={1} fit caps lineHeight={1} textColor="secondary">
+          Continuous Deployment
+        </Heading>
+        <Heading size={2} margin="10px 0 0" textColor="primary" fit bold caps>
+          Every Integration Gets Deployed Automatically
+        </Heading>
+      </Slide>
+
+      <Slide transition={['fade']} bgColor="tertiary">
+        <Heading size={1} fit caps lineHeight={1} textColor="secondary">
+          Continuous Deployment of Packages
+        </Heading>
+        <Heading size={2} margin="10px 0 0" textColor="primary" fit bold caps>
+          Every Integration Gets Published Automatically
+        </Heading>
+      </Slide>
+
+      {/* semantic-release */}
+
+      <Slide transition={['fade']} bgColor="tertiary">
+        <Heading size={1} fit caps lineHeight={1} textColor="secondary">
+          Update Dependencies
+        </Heading>
+        <Heading size={2} margin="10px 0 0" textColor="primary" fit bold caps>
+          Automatically
+        </Heading>
+      </Slide>
+
+      {/* greenkeeper */}
+      {/* greenkeeper-keeper */}
+
+      <Slide transition={['fade']} bgColor="tertiary">
+        <Heading size={1} fit caps lineHeight={1} textColor="secondary">
+          Publish of Package Results in
+        </Heading>
+        <Heading size={2} margin="10px 0 0" textColor="primary" fit bold caps>
+          Deployment of Consuming Application
+        </Heading>
+      </Slide>
+
       {/*
-        * short feedback cycle
-        * no more waiting for deployment to finish and verifying that everything worked. push and drive home
-        * continuous deployment of apps
-        * continuous deployment of packages
-        * automated dependency updates
         * continuous deployment of package results in deployment of consuming applications
       */}
 
@@ -396,13 +459,13 @@ export default function Presentation() {
 
         <List textColor="secondary" caps>
           <ListItem>
-            foo
+            Automate to Gain Confidence
           </ListItem>
           <ListItem>
-            bar
+            Leverage Confidence to Cut Waste
           </ListItem>
           <ListItem>
-            baz
+            Start Continuous Deployment with Packages to Reduce Risk
           </ListItem>
         </List>
       </Slide>
