@@ -52,6 +52,7 @@
     "webpack-dev-server": "3.2.1"
   },
   "dependencies": {
+    "imagemin": "6.1.0",
     "normalize.css": "8.0.1",
     "prop-types": "15.7.2",
     "react": "16.8.6",
