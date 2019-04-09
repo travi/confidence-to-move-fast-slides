@@ -1,5 +1,7 @@
 # confidence-to-move-fast-slides
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/travi/confidence-to-move-fast-slides.svg)](https://greenkeeper.io/)
+
 Spectacle slide deck for talk about having the confidence for
 continuous-deployment
 
