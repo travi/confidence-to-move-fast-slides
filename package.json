@@ -24,7 +24,7 @@
   "devDependencies": {
     "@babel/plugin-transform-runtime": "7.4.4",
     "@babel/register": "7.4.4",
-    "@travi/any": "1.9.0",
+    "@travi/any": "1.9.1",
     "@travi/babel-preset": "3.0.0",
     "@travi/eslint-config-travi": "1.8.0",
     "babel-loader": "8.0.5",
