@@ -26,7 +26,7 @@
     "@babel/register": "7.5.5",
     "@travi/any": "2.0.3",
     "@travi/babel-preset": "3.0.0",
-    "@travi/eslint-config-travi": "1.8.4",
+    "@travi/eslint-config-travi": "1.8.5",
     "babel-loader": "8.0.6",
     "babel-plugin-transform-react-remove-prop-types": "0.4.24",
     "ban-sensitive-files": "1.9.2",
