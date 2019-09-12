@@ -57,7 +57,7 @@
     "prop-types": "15.7.2",
     "react": "16.9.0",
     "react-dom": "16.9.0",
-    "react-hot-loader": "4.12.12",
+    "react-hot-loader": "4.12.13",
     "redbox-react": "1.6.0",
     "spectacle": "5.7.0"
   }
