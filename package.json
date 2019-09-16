@@ -50,7 +50,7 @@
     "webpack": "4.40.2",
     "webpack-cli": "3.3.8",
     "webpack-config-utils": "2.3.1",
-    "webpack-dev-server": "3.8.0"
+    "webpack-dev-server": "3.8.1"
   },
   "dependencies": {
     "normalize.css": "8.0.1",
