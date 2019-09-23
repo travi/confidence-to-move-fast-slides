@@ -22,7 +22,7 @@
     "deploy": "netlify deploy --site=$NETLIFY_SITE_ID --dir=./lib/ --prod"
   },
   "devDependencies": {
-    "@babel/plugin-transform-runtime": "7.6.0",
+    "@babel/plugin-transform-runtime": "7.6.2",
     "@babel/register": "7.6.0",
     "@travi/any": "2.0.4",
     "@travi/babel-preset": "3.0.0",
