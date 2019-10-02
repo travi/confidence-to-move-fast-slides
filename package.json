@@ -34,7 +34,7 @@
     "cz-conventional-changelog": "3.0.2",
     "file-loader": "4.2.0",
     "html-webpack-plugin": "3.2.0",
-    "husky": "3.0.7",
+    "husky": "3.0.8",
     "imagemin": "7.0.0",
     "img-loader": "3.0.1",
     "mustache-loader": "1.4.3",
