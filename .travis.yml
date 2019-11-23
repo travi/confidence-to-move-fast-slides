@@ -3,10 +3,8 @@ notifications:
   email: false
 before_script:
 - npm ls --production >/dev/null
-deploy:
-  provider: script
-  skip_cleanup: true
-  script: npm run deploy
+import:
+  - source: form8ion/.travis-ci:netlify-deploy.yml
 env:
   global:
   - FORCE_COLOR=1
