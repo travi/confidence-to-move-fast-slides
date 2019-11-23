@@ -25,7 +25,7 @@
     "@babel/plugin-transform-runtime": "7.6.2",
     "@babel/register": "7.6.2",
     "@travi/any": "2.0.6",
-    "@travi/babel-preset": "3.0.3",
+    "@travi/babel-preset": "3.0.7",
     "@travi/eslint-config-travi": "1.8.6",
     "babel-loader": "8.0.6",
     "babel-plugin-transform-react-remove-prop-types": "0.4.24",
