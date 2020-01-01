@@ -1,1 +1,7 @@
-extends: '@travi/travi/rules/es6'
+extends:
+  - '@travi'
+  - '@travi/react'
+
+overrides:
+  - extends: '@travi/cypress'
+    files: test/smoke/**/*-spec.js
