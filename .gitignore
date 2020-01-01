@@ -1,6 +1,9 @@
 /node_modules/
 /lib/
 /.netlify/
+/cypress/fixtures/
+/cypress/videos/
+/cypress/screenshots/
 
 .eslintcache
 .env
