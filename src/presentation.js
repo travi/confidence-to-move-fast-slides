@@ -12,8 +12,8 @@ const theme = createTheme({
 });
 
 const images = {
-  semanticReleaseLogo: require('../assets/semantic-release.png'),
-  greenkeeperKeeperLogo: require('../assets/greenkeeper-keeper.jpg')
+  semanticReleaseLogo: require('../assets/semantic-release.png').default,
+  greenkeeperKeeperLogo: require('../assets/greenkeeper-keeper.jpg').default
 };
 
 export default function Presentation() {
