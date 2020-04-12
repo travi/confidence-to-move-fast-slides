@@ -382,7 +382,7 @@ export default function Presentation() {
           Greenkeeper
         </Heading>
         <Image
-          src={require('../assets/greenkeeper.svg')}
+          src={require('../assets/greenkeeper.svg').default}
           width="50%"
           style={{boxShadow: '0 0 5px 1px rgba(0,0,0,0.3)', borderRadius: '100%'}}
         />
