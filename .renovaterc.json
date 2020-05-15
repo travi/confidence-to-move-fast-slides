@@ -1,0 +1,4 @@
+{
+  "extends":["github>form8ion/renovate-config"],
+  "ignoreDeps": ["spectacle"]
+}
