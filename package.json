@@ -31,7 +31,7 @@
     "@babel/register": "7.9.0",
     "@travi/any": "2.0.9",
     "@travi/babel-preset": "3.0.19",
-    "@travi/eslint-config": "1.0.34",
+    "@travi/eslint-config": "1.0.35",
     "@travi/eslint-config-cypress": "1.0.18",
     "@travi/eslint-config-react": "1.0.29",
     "babel-loader": "8.1.0",
