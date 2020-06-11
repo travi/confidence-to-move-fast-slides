@@ -26,7 +26,6 @@ export default function (env = 'development') {
       publicPath: '/'
     },
 
-
     module: {
       rules: [
         {
