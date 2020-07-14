@@ -30,7 +30,7 @@
     "@babel/plugin-transform-runtime": "7.10.5",
     "@babel/register": "7.10.5",
     "@travi/any": "2.0.10",
-    "@travi/babel-preset": "3.0.24",
+    "@travi/babel-preset": "3.0.25",
     "@travi/eslint-config": "1.0.42",
     "@travi/eslint-config-cypress": "1.0.20",
     "@travi/eslint-config-react": "1.0.39",
