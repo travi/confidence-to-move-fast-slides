@@ -27,7 +27,7 @@
     "deploy:netlify": "netlify deploy --dir=./lib/ --prod"
   },
   "devDependencies": {
-    "@babel/plugin-transform-runtime": "7.14.2",
+    "@babel/plugin-transform-runtime": "7.14.3",
     "@babel/register": "7.13.16",
     "@travi/any": "2.0.16",
     "@travi/babel-preset": "3.0.55",
