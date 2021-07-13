@@ -24,7 +24,8 @@
     "build": "webpack --env production",
     "build:dev": "webpack --env development",
     "predeploy:netlify": "run-s build",
-    "deploy:netlify": "netlify deploy --dir=./lib/ --prod"
+    "deploy:netlify": "netlify deploy --dir=./lib/ --prod",
+    "prepare": "husky install"
   },
   "devDependencies": {
     "@babel/plugin-transform-runtime": "7.14.5",
