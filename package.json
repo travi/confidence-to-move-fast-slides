@@ -64,8 +64,8 @@
   "dependencies": {
     "normalize.css": "8.0.1",
     "prop-types": "15.7.2",
-    "react": "16.14.0",
-    "react-dom": "16.14.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
     "react-hot-loader": "4.13.0",
     "redbox-react": "1.6.0",
     "spectacle": "5.8.0"
