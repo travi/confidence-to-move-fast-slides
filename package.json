@@ -13,7 +13,7 @@
     "lint:md": "remark . --frail",
     "lint:sensitive": "ban",
     "lint:peer": "npm ls --production >/dev/null",
-    "test:smoke": "start-server-and-test 'npm start' http://localhost:5000 cypress:run",
+    "test:smoke": "start-server-and-test 'npm start' http://localhost:3000 cypress:run",
     "cypress:run": "cypress run",
     "cypress:open": "cypress open",
     "clean": "rimraf ./lib",
