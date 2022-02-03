@@ -28,8 +28,8 @@
     "prepare": "husky install"
   },
   "devDependencies": {
-    "@babel/plugin-transform-runtime": "7.16.10",
-    "@babel/register": "7.16.9",
+    "@babel/plugin-transform-runtime": "7.17.0",
+    "@babel/register": "7.17.0",
     "@travi/any": "2.0.19",
     "@travi/babel-preset": "3.0.75",
     "@travi/eslint-config": "1.0.86",
