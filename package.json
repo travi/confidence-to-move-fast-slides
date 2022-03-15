@@ -39,7 +39,7 @@
     "babel-plugin-transform-react-remove-prop-types": "0.4.24",
     "ban-sensitive-files": "1.9.17",
     "commitlint-config-travi": "1.4.9",
-    "cypress": "9.5.1",
+    "cypress": "9.5.2",
     "cz-conventional-changelog": "3.3.0",
     "file-loader": "6.2.0",
     "html-webpack-plugin": "4.5.2",
