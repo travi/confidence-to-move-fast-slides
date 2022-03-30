@@ -34,7 +34,7 @@
     "@travi/babel-preset": "3.0.82",
     "@travi/eslint-config": "1.0.86",
     "@travi/eslint-config-cypress": "1.0.33",
-    "@travi/eslint-config-react": "1.0.78",
+    "@travi/eslint-config-react": "1.0.79",
     "babel-loader": "8.2.4",
     "babel-plugin-transform-react-remove-prop-types": "0.4.24",
     "ban-sensitive-files": "1.9.18",
