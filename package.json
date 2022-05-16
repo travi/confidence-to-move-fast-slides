@@ -38,7 +38,7 @@
     "babel-loader": "8.2.5",
     "babel-plugin-transform-react-remove-prop-types": "0.4.24",
     "ban-sensitive-files": "1.9.18",
-    "commitlint-config-travi": "1.4.12",
+    "commitlint-config-travi": "1.4.13",
     "cypress": "9.6.1",
     "cz-conventional-changelog": "3.3.0",
     "file-loader": "6.2.0",
