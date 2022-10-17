@@ -30,7 +30,7 @@
   "devDependencies": {
     "@babel/plugin-transform-runtime": "7.19.1",
     "@babel/register": "7.18.9",
-    "@travi/any": "2.1.5",
+    "@travi/any": "2.1.6",
     "@travi/babel-preset": "3.0.96",
     "@travi/eslint-config": "1.0.86",
     "@travi/eslint-config-cypress": "1.0.36",
