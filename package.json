@@ -69,6 +69,6 @@
     "react-dom": "16.14.0",
     "react-hot-loader": "4.13.0",
     "redbox-react": "1.6.0",
-    "spectacle": "5.8.0"
+    "spectacle": "9.6.0"
   }
 }
