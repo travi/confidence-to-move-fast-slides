@@ -28,7 +28,7 @@
     "prepare": "husky install"
   },
   "devDependencies": {
-    "@babel/plugin-transform-runtime": "7.21.0",
+    "@babel/plugin-transform-runtime": "7.21.4",
     "@babel/register": "7.21.0",
     "@travi/any": "2.1.8",
     "@travi/babel-preset": "3.0.96",
