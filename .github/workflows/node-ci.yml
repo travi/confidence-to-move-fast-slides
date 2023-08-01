@@ -23,7 +23,7 @@ jobs:
         uses: actions/setup-node@e33196f7422957bea03ed53f6fbb155025ffc7b8 # v3.7.0
         with:
           node-version: ${{ steps.nvm.outputs.NVMRC }}
-      - uses: bahmutov/npm-install@v1
+      - uses: bahmutov/npm-install@c5482d70ec8706408996e31ac94075030694993f # v1.8.32
       - run: npm test
   deploy:
     if: github.ref == 'refs/heads/master'
@@ -38,7 +38,7 @@ jobs:
         uses: actions/setup-node@e33196f7422957bea03ed53f6fbb155025ffc7b8 # v3.7.0
         with:
           node-version: ${{ steps.nvm.outputs.NVMRC }}
-      - uses: bahmutov/npm-install@v1
+      - uses: bahmutov/npm-install@c5482d70ec8706408996e31ac94075030694993f # v1.8.32
       - run: npm run deploy:netlify
         env:
           NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
