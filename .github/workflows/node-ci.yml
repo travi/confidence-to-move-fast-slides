@@ -16,14 +16,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@c85c95e3d7251135ab7dc9ce3241c5835cc595a9 # v3.5.3
-      - name: Read .nvmrc
-        run: echo ::set-output name=NVMRC::$(cat .nvmrc)
-        id: nvm
       - name: Setup node
         uses: actions/setup-node@bea5baf987ba7aa777a8a0b4ace377a21c45c381 # v3.8.0
         with:
-          node-version: ${{ steps.nvm.outputs.NVMRC }}
-      - uses: bahmutov/npm-install@5e78a2c1fa3203b777a67764f15380aa7c80d015 # v1.8.34
+          node-version-file: .nvmrc
+          cache: npm
+      - run: npm clean-install
+      - run: npm audit signatures
       - run: npm test
   deploy:
     if: github.ref == 'refs/heads/master'
@@ -31,15 +30,16 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@c85c95e3d7251135ab7dc9ce3241c5835cc595a9 # v3.5.3
-      - name: Read .nvmrc
-        run: echo ::set-output name=NVMRC::$(cat .nvmrc)
-        id: nvm
       - name: Setup node
         uses: actions/setup-node@bea5baf987ba7aa777a8a0b4ace377a21c45c381 # v3.8.0
         with:
-          node-version: ${{ steps.nvm.outputs.NVMRC }}
-      - uses: bahmutov/npm-install@5e78a2c1fa3203b777a67764f15380aa7c80d015 # v1.8.34
+          node-version-file: .nvmrc
+          cache: npm
+      - run: npm clean-install
+      - run: npm audit signatures
       - run: npm run deploy:netlify
         env:
           NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+permissions:
+  contents: read
