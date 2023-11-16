@@ -54,7 +54,7 @@
     "remark-preset-lint-travi": "6.0.3",
     "rimraf": "5.0.5",
     "serve": "14.2.1",
-    "start-server-and-test": "2.0.2",
+    "start-server-and-test": "2.0.3",
     "style-loader": "2.0.0",
     "url-loader": "4.1.1",
     "webpack": "4.47.0",
