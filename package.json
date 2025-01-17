@@ -44,7 +44,7 @@
     "file-loader": "6.2.0",
     "html-webpack-plugin": "4.5.2",
     "husky": "9.1.7",
-    "imagemin": "8.0.1",
+    "imagemin": "9.0.0",
     "img-loader": "4.0.0",
     "mustache-loader": "1.4.3",
     "netlify-cli": "8.1.4",
